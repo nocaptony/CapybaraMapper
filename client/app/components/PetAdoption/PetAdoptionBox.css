@@ -1,0 +1,31 @@
+.pet-adoption-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.pet-adoption-card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pet-adoption-card img {
+    object-fit: cover;
+}
+
+.pet-adoption-card .MuiCardContent-root {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pet-adoption-card .description {
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,52 @@
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+  
+.search-content {
+    text-align: left; 
+    color: #333;
+    width: 50%; 
+    padding: 0 20px; 
+}
+  
+.search-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.pet-search-row {
+    width: 50%; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.pet-search-card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pet-search-card img {
+    object-fit: cover;
+}
+
+.pet-search-card .MuiCardContent-root {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pet-search-card .pet-desc {
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    padding-bottom: 10px;
+}

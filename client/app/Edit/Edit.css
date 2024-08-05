@@ -1,0 +1,25 @@
+.edit-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.edit-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+
+.header {
+    padding-top: 150px;
+}
+
+.edit-content .application-card {
+    width: 25%;
+    margin: 10px;
+}
